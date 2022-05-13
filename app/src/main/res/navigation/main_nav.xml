@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main_nav"
+    app:startDestination="@id/menuFragment">
+
+    <fragment
+        android:id="@+id/menuFragment"
+        android:name="com.example.mobilepuzzle.MenuFragment"
+        android:label="fragment_menu"
+        tools:layout="@layout/fragment_menu" >
+        <action
+            android:id="@+id/navigate_to_selectPictureFragment"
+            app:destination="@id/selectPictureFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/selectPictureFragment"
+        android:name="com.example.mobilepuzzle.SelectPictureFragment"
+        android:label="fragment_select_picture"
+        tools:layout="@layout/fragment_select_picture" >
+        <action
+            android:id="@+id/navigate_to_menuFragment"
+            app:destination="@id/menuFragment" />
+    </fragment>
+</navigation>
