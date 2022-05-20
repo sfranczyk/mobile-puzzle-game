@@ -3,6 +3,9 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/Users/sfran/StudioProjects/mobile-puzzle-game/app/src/main/res/drawable/ic_launcher_background.xml" value="0.142" />
+        <entry key="..\:/Users/sfran/StudioProjects/mobile-puzzle-game/app/src/main/res/layout/activity_puzzle.xml" value="0.22" />
+        <entry key="..\:/Users/sfran/StudioProjects/mobile-puzzle-game/app/src/main/res/layout/fragment_select_picture.xml" value="0.2246376811594203" />
         <entry key="..\:/Users/sfranczyk/AndroidStudioProjects/MobilePuzzle/app/src/main/res/layout/activity_main.xml" value="0.10714285714285714" />
         <entry key="..\:/Users/sfranczyk/AndroidStudioProjects/MobilePuzzle/app/src/main/res/layout/activity_main_menu.xml" value="0.33242753623188404" />
         <entry key="..\:/Users/sfranczyk/AndroidStudioProjects/MobilePuzzle/app/src/main/res/layout/activity_puzzle.xml" value="0.213768115942029" />

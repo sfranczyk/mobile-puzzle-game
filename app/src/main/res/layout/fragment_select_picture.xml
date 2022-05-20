@@ -19,7 +19,7 @@
         <Button
             android:id="@+id/btnBack"
             android:layout_width="wrap_content"
-            android:layout_height="40dp"
+            android:layout_height="48dp"
             android:backgroundTint="@color/amber_700"
             android:text="@string/back"
             android:layout_marginStart="10dp"
@@ -28,22 +28,24 @@
             app:layout_constraintBottom_toBottomOf="parent"/>
 
         <TextView
+            android:gravity="center"
             android:id="@+id/textViewSelectImage"
             android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
+            android:layout_height="match_parent"
             android:text="@string/select_image"
             android:textAlignment="center"
             android:textSize="25sp"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toTopOf="parent"/>
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintBottom_toBottomOf="parent"/>
 
     </androidx.constraintlayout.widget.ConstraintLayout>
 
     <ImageView
         android:id="@+id/imageViewSelectImage"
         android:layout_width="match_parent"
-        android:layout_height="450dp"
+        android:layout_height="500dp"
         app:layout_constraintBottom_toTopOf="@+id/rowAction"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.5"

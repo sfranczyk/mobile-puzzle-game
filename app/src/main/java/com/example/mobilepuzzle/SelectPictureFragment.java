@@ -54,7 +54,7 @@ public class SelectPictureFragment extends Fragment implements GestureDetector.O
         adapter = new SelectImageAdapter(getContext());
         myGesture = new GestureDetector(getContext(), this);
         imgViewSelectImage.setOnTouchListener((v, event) -> !myGesture.onTouchEvent(event));
-        imgViewSelectImage.setScaleType((ImageView.ScaleType.FIT_XY));
+        imgViewSelectImage.setScaleType((ImageView.ScaleType.CENTER_CROP));
         changeViewImg(currentImgIndex);
     }
 
@@ -141,5 +141,4 @@ public class SelectPictureFragment extends Fragment implements GestureDetector.O
         updateTextNumber(position);
         imgViewSelectImage.setImageResource((Integer) adapter.getItem(position));
     }
-
 }

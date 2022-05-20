@@ -13,8 +13,15 @@ public class SelectImageAdapter extends BaseAdapter {
     private final Context context;
     private static Integer[] images = {
         R.drawable.dragon1,
+        R.drawable.plane1,
+        R.drawable.cat1,
+        R.drawable.god1,
+        R.drawable.sword1,
+        R.drawable.flowers1,
+        R.drawable.plane2,
         R.drawable.dragon2,
-        R.drawable.cat1
+        R.drawable.flowers2,
+        R.drawable.lion1
     };
 
     public SelectImageAdapter(Context c){
